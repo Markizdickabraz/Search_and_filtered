@@ -1,6 +1,7 @@
 {
   "name": "advance-filtering",
   "version": "0.1.0",
+  "homepage": "https://markizdickabraz.github.io/Search_and_filtered/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
-  }
+    "gh-pages": "^6.1.1",
+  "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
+}
 }
