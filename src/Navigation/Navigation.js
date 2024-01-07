@@ -11,6 +11,7 @@ function Navigation({query, handleInputChange}) {
           onChange={handleInputChange}
           type='text'
           className='search_input'
+          value={query}
           placeholder='Enter your search shoes.' />
       </div>
 
