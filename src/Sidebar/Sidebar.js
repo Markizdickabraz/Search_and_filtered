@@ -6,7 +6,10 @@ import { GiShoppingCart } from "react-icons/gi";
 
 
 
- function Sidebar() {
+function Sidebar({ handleChange }) {
+
+
+
   return (
       <>
           <section className="sidebar">
@@ -14,9 +17,9 @@ import { GiShoppingCart } from "react-icons/gi";
                   <GiShoppingCart  className='logo'/>
               </div>
 
-              <Category />
-              <Price />
-              <Colors />
+              <Category handleChange = {handleChange} />
+              <Price handleChange = {handleChange} />
+              <Colors handleChange = {handleChange} />
 
           </section>
       </>
